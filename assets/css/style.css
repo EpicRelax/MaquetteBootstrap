@@ -1,0 +1,178 @@
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: "Raleway";
+}
+
+h1, h2, #myName h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header span {
+    background-color: black;
+    color: white;
+    padding: 0.1rem 0.5rem;
+}
+
+.container .row {
+    flex-direction: row-reverse;
+}
+
+#myName {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding-bottom: 0.1rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#myName img {
+    width: 100%;
+}
+
+#myNameText {
+    margin: 0.5rem;
+}
+
+#myNameText p {
+    font-size: 0.9rem;
+}
+
+#second {
+    margin-top: -34.5rem;
+}
+
+#popular {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#popular a {
+    color: black;
+    text-decoration: none;
+}
+
+#popular h3 {
+    padding: 0.8rem;
+    background-color: lightgray;
+    font-size: 1.2rem;
+}
+
+.popularPosts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px lightgray solid;
+}
+
+.popularPostsImg {
+    width: 12%;
+}
+
+.popularPostsImg img {
+    width: 100%;
+}
+
+.popularPostsText {
+    padding-left: 0.5rem;
+}
+
+.popularPostsText p {
+    margin: 0;
+}
+
+#tags {
+    background-color: white;
+    margin-top: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#tags h3 {
+    padding: 0.8rem;
+    background-color: lightgray;
+    font-size: 1.2rem;
+}
+
+#tags div {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#tags div a {
+    height: 25px;
+    color: black;
+    text-decoration: none;
+    margin: 0.2rem 0.2rem;
+    padding: 0.2rem;
+    background-color: lightgray;
+}
+
+#tags div a:hover {
+    background-color: black;
+    color: white;
+}
+
+.post {
+    margin-bottom: 2rem;
+    padding: 0 0 0.5rem 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.postText {
+    margin: 0.5rem;
+}
+
+.postText div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postText button {
+    border: 1px lightgray solid;
+    background-color: white;
+
+}
+
+.postText button span {
+    background-color: black;
+    color: white;
+    border-radius: 60%;
+    padding: 0 0.4rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #second {
+        margin-top: -31.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    #second {
+        margin-top: 0rem;
+    }
+}
